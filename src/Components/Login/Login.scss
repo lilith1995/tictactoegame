@@ -1,0 +1,82 @@
+.app-wrapper {
+    display: flex;
+    position: fixed;
+    background: #e0d6e0;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-screen {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    background: rgb(252, 252, 252);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 3px rgb(150, 46, 150);
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+
+    .form-players {
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+    }
+
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+        cursor: default;
+        font: 18px bold;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #1b011d;
+        background-color: #ffffff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s
+    }
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background: #A249A2;
+    border-color: #A249A2;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 3px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+button,
+input {
+    overflow: visible;
+}

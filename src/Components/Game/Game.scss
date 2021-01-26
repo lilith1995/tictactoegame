@@ -1,0 +1,25 @@
+.app-game {
+    flex-direction: column;
+    height: 80vh;
+}
+
+.app-board,
+.app-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-game p {
+    font-size: 1.3em;
+    font-weight: 700;
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

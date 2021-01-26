@@ -1,0 +1,23 @@
+.App {
+    display: block;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 400px) {
+    .game-title {
+      display: flex;
+      font-size: 0.2em;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+      align-items: center;
+    }
+    .game-title h1 {
+      font-size: large;
+    }
+    .game-statistics {
+      display: flex;
+    }
+    .game-statistics h2 {
+      font-size: medium;
+    }
+  }
