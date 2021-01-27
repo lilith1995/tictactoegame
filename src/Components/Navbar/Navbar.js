@@ -8,7 +8,7 @@ class Navbar extends React.Component {
     return (
       <div className="game-navbar">
         <div className="game-title">
-          <h1>Let's play Tic Tac Toe U+1F643  	</h1>
+          <h1>Let's play Tic Tac Toe</h1>
         </div>
         <div className="game-statistics">
           <h2>
