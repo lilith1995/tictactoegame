@@ -41,7 +41,6 @@ class Login extends React.Component {
                 onChange={this.handleChange}
               />
             </div>
-
             <button onClick={this.handleClick} className="btn btn-primary">
               Submit
             </button>

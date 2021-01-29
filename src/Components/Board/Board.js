@@ -41,7 +41,7 @@ class Board extends React.Component {
     if (player2) {
       tile.innerHTML = "O";
       turn("player2", false, "player1", true);
-      if (this.diagonal("0") || this.row("0") || this.column("0")) {
+      if (this.diagonal("O") || this.row("O") || this.column("O")) {
         handleScore("player2");
         endgame(true);
         this.reset();
