@@ -22,7 +22,7 @@ class Login extends React.Component {
   };
   render() {
     return (
-      <div className="app-wrapper">
+      <div className="app-layout">
         <div className="app-screen">
           <form>
             <div className="form-players">
@@ -41,7 +41,7 @@ class Login extends React.Component {
                 onChange={this.handleChange}
               />
             </div>
-            <button onClick={this.handleClick} className="btn btn-primary">
+            <button onClick={this.handleClick} className="btn btn-submit">
               Submit
             </button>
           </form>

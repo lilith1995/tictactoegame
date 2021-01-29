@@ -1,4 +1,4 @@
-.app-wrapper {
+.app-layout {
     display: flex;
     position: fixed;
     background: #e0d6e0;
@@ -56,7 +56,7 @@ button:not(:disabled) {
     cursor: pointer;
 }
 
-.btn-primary {
+.btn-submit {
     color: rgb(255, 255, 255);
     background: #A249A2;
     border-color: #A249A2;
